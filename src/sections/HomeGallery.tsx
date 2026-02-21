@@ -82,7 +82,7 @@ const HomeGallery = () => {
                   color='secondary'
                   sx={{ py: 2.5, px: 8 }}
                 >
-                  Ver Galería Completa →
+                  Galería Completa →
                 </Button>
               </Grid>
               <Grid size={{ xs: 12, lg: 7 }}>

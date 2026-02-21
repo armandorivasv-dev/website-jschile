@@ -60,7 +60,7 @@ const Footer = () => {
               sx={{
                 fontWeight: 950,
                 color: '#F0DB4F',
-                fontSize: '2.5rem',
+                fontSize: { xs: '2rem', md: '2.5rem' },
                 letterSpacing: '-0.04em',
               }}
             >
@@ -70,7 +70,7 @@ const Footer = () => {
               sx={{
                 fontWeight: 950,
                 color: 'black',
-                fontSize: '2.5rem',
+                fontSize: { xs: '2rem', md: '2.5rem' },
                 letterSpacing: '-0.04em',
                 ml: 1,
               }}

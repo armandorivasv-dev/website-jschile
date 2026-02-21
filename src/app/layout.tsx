@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: 'JavaScript Chile | Comunidad de Desarrolladores',
   description:
     'Somos una comunidad de desarrolladores apasionados por la tecnología en Chile.',
+  icons: {
+    icon: '/icon.png',
+  },
 };
 
 export default function RootLayout({
