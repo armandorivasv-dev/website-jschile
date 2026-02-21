@@ -133,8 +133,17 @@ const Footer = () => {
         }}
       >
         <Typography variant='caption' sx={{ fontWeight: 600, color: '#888' }}>
-          Copyright © JavaScript Chile 2026. Design by JavaScript Chile
-          Community
+          Copyright © JavaScript Chile 2026. Design by SamuelAngulo & Develop by{' '}
+          <Link
+            href='https://www.armandorivasv.dev/'
+            target='_blank'
+            rel='noopener noreferrer'
+            color='inherit'
+            underline='hover'
+          >
+            ArmandoRivasV
+          </Link>{' '}
+          - JavaScript Chile
         </Typography>
         <Box sx={{ display: 'flex', gap: 1 }}>
           <IconButton size='small'>
