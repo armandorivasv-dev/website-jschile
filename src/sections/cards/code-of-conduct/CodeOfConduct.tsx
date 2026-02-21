@@ -44,7 +44,7 @@ export const CodeOfConduct = () => {
             fullWidth
             onClick={() => setIsModalOpen(true)}
           >
-            Ver Código de Conducta →
+            Código de Conducta →
           </Button>
         </CardActions>
       </Card>
